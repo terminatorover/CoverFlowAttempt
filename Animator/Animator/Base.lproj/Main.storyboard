@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="D87-q2-5AA">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -59,7 +59,58 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="355" y="321"/>
+            <point key="canvasLocation" x="-111" y="105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Jz-jy-lzP">
+            <objects>
+                <viewController id="D87-q2-5AA" customClass="RGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UJe-pi-vpi"/>
+                        <viewControllerLayoutGuide type="bottom" id="CF8-US-TZm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DdD-Up-Kai">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ia0-Vj-ujV">
+                                <rect key="frame" x="-600" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Rw-PQ-vfP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.41804375739999999" blue="0.33068177370000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Rw-PQ-vfP" secondAttribute="trailing" constant="-16" id="5to-4y-2Cu"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="top" secondItem="5Rw-PQ-vfP" secondAttribute="top" id="foa-UE-pcj"/>
+                            <constraint firstItem="CF8-US-TZm" firstAttribute="top" secondItem="5Rw-PQ-vfP" secondAttribute="bottom" id="gqh-cw-9Mv"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="bottom" secondItem="5Rw-PQ-vfP" secondAttribute="bottom" id="ian-sF-qF5"/>
+                            <constraint firstAttribute="trailing" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" constant="600" id="ki7-uy-xqz"/>
+                            <constraint firstItem="5Rw-PQ-vfP" firstAttribute="leading" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" id="mSE-G0-H69"/>
+                            <constraint firstItem="5Rw-PQ-vfP" firstAttribute="top" secondItem="DdD-Up-Kai" secondAttribute="topMargin" id="rAq-y7-M2P"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="leading" secondItem="DdD-Up-Kai" secondAttribute="leading" constant="-600" id="sE2-cZ-v4v"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="wm2-P1-azf" appends="YES" id="Jsn-Ir-Gdc"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="leftView" destination="Ia0-Vj-ujV" id="TyX-fy-X5h"/>
+                        <outlet property="rightView" destination="5Rw-PQ-vfP" id="L1D-zr-0Tn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PK8-hL-K3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="wm2-P1-azf">
+                    <connections>
+                        <action selector="pan:" destination="D87-q2-5AA" id="pDr-Ho-ETL"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="633" y="105"/>
         </scene>
     </scenes>
 </document>

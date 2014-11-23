@@ -15,6 +15,7 @@
 		A1F57FBD1A212BC000C3D42C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F57FBB1A212BC000C3D42C /* LaunchScreen.xib */; };
 		A1F57FC91A212BC000C3D42C /* AnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F57FC81A212BC000C3D42C /* AnimatorTests.m */; };
 		A1F57FD31A212BCC00C3D42C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F57FD21A212BCC00C3D42C /* QuartzCore.framework */; };
+		A1F57FD61A21432B00C3D42C /* RGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F57FD51A21432B00C3D42C /* RGViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A1F57FC71A212BC000C3D42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F57FC81A212BC000C3D42C /* AnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatorTests.m; sourceTree = "<group>"; };
 		A1F57FD21A212BCC00C3D42C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1F57FD41A21432B00C3D42C /* RGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGViewController.h; sourceTree = "<group>"; };
+		A1F57FD51A21432B00C3D42C /* RGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				A1F57FB31A212BC000C3D42C /* ViewController.h */,
 				A1F57FB41A212BC000C3D42C /* ViewController.m */,
 				A1F57FB61A212BC000C3D42C /* Main.storyboard */,
+				A1F57FD41A21432B00C3D42C /* RGViewController.h */,
+				A1F57FD51A21432B00C3D42C /* RGViewController.m */,
 				A1F57FB91A212BC000C3D42C /* Images.xcassets */,
 				A1F57FBB1A212BC000C3D42C /* LaunchScreen.xib */,
 				A1F57FAC1A212BC000C3D42C /* Supporting Files */,
@@ -224,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F57FB51A212BC000C3D42C /* ViewController.m in Sources */,
+				A1F57FD61A21432B00C3D42C /* RGViewController.m in Sources */,
 				A1F57FB21A212BC000C3D42C /* AppDelegate.m in Sources */,
 				A1F57FAF1A212BC000C3D42C /* main.m in Sources */,
 			);
