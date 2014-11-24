@@ -14,6 +14,7 @@
 		A1EB23591A22DDAD00710437 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EB23581A22DDAD00710437 /* Images.xcassets */; };
 		A1EB235C1A22DDAD00710437 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EB235A1A22DDAD00710437 /* LaunchScreen.xib */; };
 		A1EB23681A22DDAD00710437 /* RGCoverFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB23671A22DDAD00710437 /* RGCoverFlowTests.m */; };
+		A1EB23721A22DF0F00710437 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EB23711A22DF0F00710437 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A1EB23611A22DDAD00710437 /* RGCoverFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGCoverFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EB23661A22DDAD00710437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EB23671A22DDAD00710437 /* RGCoverFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGCoverFlowTests.m; sourceTree = "<group>"; };
+		A1EB23711A22DF0F00710437 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EB23721A22DF0F00710437 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		A1EB233F1A22DDAC00710437 = {
 			isa = PBXGroup;
 			children = (
+				A1EB23711A22DF0F00710437 /* QuartzCore.framework */,
 				A1EB234A1A22DDAD00710437 /* RGCoverFlow */,
 				A1EB23641A22DDAD00710437 /* RGCoverFlowTests */,
 				A1EB23491A22DDAD00710437 /* Products */,
