@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1BFF2D41A0DE85B00FE2B1D /* SmallView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BFF2D31A0DE85B00FE2B1D /* SmallView.xib */; };
+		A1BFF2D71A0DE86C00FE2B1D /* SmallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BFF2D61A0DE86C00FE2B1D /* SmallViewController.m */; };
+		A1E0F9DA1A089C87001E8EB3 /* RGView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E0F9D91A089C87001E8EB3 /* RGView.m */; };
 		A1E63D4C1A0833BF002688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E63D4B1A0833BF002688E5 /* main.m */; };
 		A1E63D4F1A0833BF002688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E63D4E1A0833BF002688E5 /* AppDelegate.m */; };
 		A1E63D521A0833BF002688E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E63D511A0833BF002688E5 /* ViewController.m */; };
@@ -14,6 +17,9 @@
 		A1E63D571A0833BF002688E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E63D561A0833BF002688E5 /* Images.xcassets */; };
 		A1E63D5A1A0833BF002688E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E63D581A0833BF002688E5 /* LaunchScreen.xib */; };
 		A1E63D661A0833BF002688E5 /* checkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E63D651A0833BF002688E5 /* checkTests.m */; };
+		A1F42BBC1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F42BBB1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.m */; };
+		A1F57FDC1A2299EE00C3D42C /* RGCoverFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F57FDB1A2299EE00C3D42C /* RGCoverFlowViewController.m */; };
+		A1F57FDF1A229C2D00C3D42C /* TransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F57FDE1A229C2D00C3D42C /* TransformView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1BFF2D31A0DE85B00FE2B1D /* SmallView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallView.xib; sourceTree = "<group>"; };
+		A1BFF2D51A0DE86C00FE2B1D /* SmallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallViewController.h; sourceTree = "<group>"; };
+		A1BFF2D61A0DE86C00FE2B1D /* SmallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallViewController.m; sourceTree = "<group>"; };
+		A1E0F9D81A089C87001E8EB3 /* RGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGView.h; sourceTree = "<group>"; };
+		A1E0F9D91A089C87001E8EB3 /* RGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGView.m; sourceTree = "<group>"; };
 		A1E63D461A0833BF002688E5 /* check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = check.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E63D4A1A0833BF002688E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E63D4B1A0833BF002688E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,12 @@
 		A1E63D5F1A0833BF002688E5 /* checkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E63D641A0833BF002688E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E63D651A0833BF002688E5 /* checkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkTests.m; sourceTree = "<group>"; };
+		A1F42BBA1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMS_SubmittedRequestTableViewCell.h; sourceTree = "<group>"; };
+		A1F42BBB1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMS_SubmittedRequestTableViewCell.m; sourceTree = "<group>"; };
+		A1F57FDA1A2299EE00C3D42C /* RGCoverFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCoverFlowViewController.h; sourceTree = "<group>"; };
+		A1F57FDB1A2299EE00C3D42C /* RGCoverFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCoverFlowViewController.m; sourceTree = "<group>"; };
+		A1F57FDD1A229C2D00C3D42C /* TransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformView.h; sourceTree = "<group>"; };
+		A1F57FDE1A229C2D00C3D42C /* TransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +102,18 @@
 				A1E63D4E1A0833BF002688E5 /* AppDelegate.m */,
 				A1E63D501A0833BF002688E5 /* ViewController.h */,
 				A1E63D511A0833BF002688E5 /* ViewController.m */,
+				A1F42BBA1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.h */,
+				A1F42BBB1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.m */,
+				A1BFF2D31A0DE85B00FE2B1D /* SmallView.xib */,
+				A1BFF2D51A0DE86C00FE2B1D /* SmallViewController.h */,
+				A1BFF2D61A0DE86C00FE2B1D /* SmallViewController.m */,
 				A1E63D531A0833BF002688E5 /* Main.storyboard */,
+				A1F57FDD1A229C2D00C3D42C /* TransformView.h */,
+				A1F57FDE1A229C2D00C3D42C /* TransformView.m */,
+				A1F57FDA1A2299EE00C3D42C /* RGCoverFlowViewController.h */,
+				A1F57FDB1A2299EE00C3D42C /* RGCoverFlowViewController.m */,
+				A1E0F9D81A089C87001E8EB3 /* RGView.h */,
+				A1E0F9D91A089C87001E8EB3 /* RGView.m */,
 				A1E63D561A0833BF002688E5 /* Images.xcassets */,
 				A1E63D581A0833BF002688E5 /* LaunchScreen.xib */,
 				A1E63D491A0833BF002688E5 /* Supporting Files */,
@@ -201,6 +229,7 @@
 			files = (
 				A1E63D551A0833BF002688E5 /* Main.storyboard in Resources */,
 				A1E63D5A1A0833BF002688E5 /* LaunchScreen.xib in Resources */,
+				A1BFF2D41A0DE85B00FE2B1D /* SmallView.xib in Resources */,
 				A1E63D571A0833BF002688E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +248,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BFF2D71A0DE86C00FE2B1D /* SmallViewController.m in Sources */,
+				A1F57FDF1A229C2D00C3D42C /* TransformView.m in Sources */,
 				A1E63D521A0833BF002688E5 /* ViewController.m in Sources */,
 				A1E63D4F1A0833BF002688E5 /* AppDelegate.m in Sources */,
 				A1E63D4C1A0833BF002688E5 /* main.m in Sources */,
+				A1F57FDC1A2299EE00C3D42C /* RGCoverFlowViewController.m in Sources */,
+				A1F42BBC1A0EDE7F00DF3CDA /* IRMS_SubmittedRequestTableViewCell.m in Sources */,
+				A1E0F9DA1A089C87001E8EB3 /* RGView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +448,7 @@
 				A1E63D6B1A0833BF002688E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E63D6C1A0833BF002688E5 /* Build configuration list for PBXNativeTarget "checkTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +457,7 @@
 				A1E63D6E1A0833BF002688E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

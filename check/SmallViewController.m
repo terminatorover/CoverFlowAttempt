@@ -1,4 +1,4 @@
-//
+    //
 //  SmallViewController.m
 //  check
 //
@@ -13,10 +13,19 @@
 @end
 
 @implementation SmallViewController
+- (IBAction)pressed:(id)sender {
+    NSLog(@"Pressed");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:[[UIViewController alloc]init]];
+//    [self presentViewController:navC animated:NO completion:^{
+//        NSLog(@"presnted VC");
+//    }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

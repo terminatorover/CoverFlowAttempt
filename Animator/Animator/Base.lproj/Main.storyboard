@@ -76,24 +76,52 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ia0-Vj-ujV">
                                 <rect key="frame" x="-600" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Rw-PQ-vfP">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Rw-PQ-vfP" customClass="RGView">
+                                <rect key="frame" x="0.0" y="0.0" width="604" height="600"/>
                                 <color key="backgroundColor" red="1" green="0.41804375739999999" blue="0.33068177370000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="604" id="Nbi-5L-xln"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="5Rw-PQ-vfP" secondAttribute="trailing" constant="-16" id="5to-4y-2Cu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Rw-PQ-vfP" secondAttribute="trailing" constant="-100" id="5to-4y-2Cu"/>
+                            <constraint firstItem="5Rw-PQ-vfP" firstAttribute="leading" secondItem="DdD-Up-Kai" secondAttribute="leading" id="8mV-8m-b7t"/>
+                            <constraint firstItem="5Rw-PQ-vfP" firstAttribute="leading" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" id="NT4-hI-LhN"/>
+                            <constraint firstItem="5Rw-PQ-vfP" firstAttribute="leading" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" id="TLa-gT-i87"/>
                             <constraint firstItem="Ia0-Vj-ujV" firstAttribute="top" secondItem="5Rw-PQ-vfP" secondAttribute="top" id="foa-UE-pcj"/>
                             <constraint firstItem="CF8-US-TZm" firstAttribute="top" secondItem="5Rw-PQ-vfP" secondAttribute="bottom" id="gqh-cw-9Mv"/>
                             <constraint firstItem="Ia0-Vj-ujV" firstAttribute="bottom" secondItem="5Rw-PQ-vfP" secondAttribute="bottom" id="ian-sF-qF5"/>
                             <constraint firstAttribute="trailing" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" constant="600" id="ki7-uy-xqz"/>
                             <constraint firstItem="5Rw-PQ-vfP" firstAttribute="leading" secondItem="Ia0-Vj-ujV" secondAttribute="trailing" id="mSE-G0-H69"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="bottom" secondItem="DdD-Up-Kai" secondAttribute="bottomMargin" id="ox3-cY-HEl"/>
                             <constraint firstItem="5Rw-PQ-vfP" firstAttribute="top" secondItem="DdD-Up-Kai" secondAttribute="topMargin" id="rAq-y7-M2P"/>
                             <constraint firstItem="Ia0-Vj-ujV" firstAttribute="leading" secondItem="DdD-Up-Kai" secondAttribute="leading" constant="-600" id="sE2-cZ-v4v"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="top" secondItem="DdD-Up-Kai" secondAttribute="topMargin" id="u1E-fn-hCS"/>
+                            <constraint firstItem="Ia0-Vj-ujV" firstAttribute="leading" secondItem="DdD-Up-Kai" secondAttribute="leadingMargin" constant="-616" id="zYR-zB-So5"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5to-4y-2Cu"/>
+                                <exclude reference="8mV-8m-b7t"/>
+                                <exclude reference="TLa-gT-i87"/>
+                                <exclude reference="mSE-G0-H69"/>
+                                <exclude reference="sE2-cZ-v4v"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="wm2-P1-azf" appends="YES" id="Jsn-Ir-Gdc"/>
                         </connections>
@@ -110,7 +138,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="633" y="105"/>
+            <point key="canvasLocation" x="722" y="82"/>
         </scene>
     </scenes>
 </document>

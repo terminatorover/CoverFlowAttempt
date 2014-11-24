@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   type = "1"
+   type = "4"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Animator/ViewController.m"
-            timestampString = "438386295.92279"
+            filePath = "check/ViewController.m"
+            timestampString = "438470447.04426"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-panning:"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-angleFromDistance:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Animator/RGView.m"
-            timestampString = "438453356.570002"
+            filePath = "check/ViewController.m"
+            timestampString = "438470447.04426"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-initWithCoder:"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-tapped:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,30 +41,24 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Animator/RGView.m"
-            timestampString = "438453360.721758"
+            filePath = "check/SmallViewController.m"
+            timestampString = "437119335.963597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-initWithCoder:"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-pressed:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Animator/RGViewController.m"
-            timestampString = "438457244.255284"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "-firstItem:secondItem:"
-            landmarkType = "5">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

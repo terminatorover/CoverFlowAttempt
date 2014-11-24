@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wtd-hW-mRL">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,121 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTe-9O-Ddc">
+                                <rect key="frame" x="35" y="55" width="226" height="231"/>
+                                <color key="backgroundColor" red="1" green="0.41804375739999999" blue="0.33068177370000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DPA-KV-u2W" appends="YES" id="EHN-OX-3ap"/>
+                                </connections>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hM5-cz-pD2">
+                                <rect key="frame" x="98" y="330" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="q0S-ew-66L"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="N7A-F9-K5o"/>
+                                </connections>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="i3" translatesAutoresizingMaskIntoConstraints="NO" id="yOe-Ia-9Pj">
+                                <rect key="frame" x="274" y="55" width="207" height="231"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="231" id="5MV-oo-y4f"/>
+                                    <constraint firstAttribute="width" constant="207" id="Sty-Lf-mhP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jTe-9O-Ddc" firstAttribute="top" secondItem="yOe-Ia-9Pj" secondAttribute="top" id="2aO-8i-hT5"/>
+                            <constraint firstItem="yOe-Ia-9Pj" firstAttribute="leading" secondItem="jTe-9O-Ddc" secondAttribute="trailing" constant="13" id="4CC-Z7-gmb"/>
+                            <constraint firstAttribute="bottom" secondItem="jTe-9O-Ddc" secondAttribute="bottom" constant="314" id="5ul-1n-vZx"/>
+                            <constraint firstItem="hM5-cz-pD2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="C1D-3B-gfZ"/>
+                            <constraint firstAttribute="trailing" secondItem="jTe-9O-Ddc" secondAttribute="trailing" constant="339" id="MF1-RX-9w3"/>
+                            <constraint firstItem="jTe-9O-Ddc" firstAttribute="bottom" secondItem="yOe-Ia-9Pj" secondAttribute="bottom" id="S7e-zc-BI4"/>
+                            <constraint firstItem="jTe-9O-Ddc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="Vek-eM-9QD"/>
+                            <constraint firstItem="hM5-cz-pD2" firstAttribute="top" secondItem="jTe-9O-Ddc" secondAttribute="bottom" constant="44" id="ZAL-BS-QK8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yOe-Ia-9Pj" secondAttribute="trailing" constant="103" id="dmu-wE-7ju"/>
+                            <constraint firstItem="jTe-9O-Ddc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="jh1-1l-gPT"/>
+                            <constraint firstItem="yOe-Ia-9Pj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="mHN-y5-2t3"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="box" destination="jTe-9O-Ddc" id="y99-SF-lk4"/>
+                        <outlet property="image2" destination="yOe-Ia-9Pj" id="PR5-p7-Adu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DPA-KV-u2W">
+                    <connections>
+                        <action selector="tapped:" destination="BYZ-38-t0r" id="amX-UK-bWR"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-538" y="361"/>
+        </scene>
+        <!--Cover Flow View Controller-->
+        <scene sceneID="Ovz-aV-kK8">
+            <objects>
+                <viewController id="Wtd-hW-mRL" customClass="RGCoverFlowViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hMu-kP-s3C"/>
+                        <viewControllerLayoutGuide type="bottom" id="Azg-sd-QZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jxl-rE-2FX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.25" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UnA-bR-nj5">
+                                <rect key="frame" x="540" y="207" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qy-fm-yQh">
+                                <rect key="frame" x="-20" y="187" width="441" height="140"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bt7-2W-T1Z" customClass="TransformView">
+                                        <rect key="frame" x="93" y="20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="0.20392156859999999" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4NE-zE-GnB" customClass="TransformView">
+                                        <rect key="frame" x="169" y="20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q9C-5F-drx" customClass="TransformView">
+                                        <rect key="frame" x="247" y="20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="0.24588815789473681" green="0.32134046049999998" blue="0.28505345389999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qL-yr-Nwf" customClass="TransformView">
+                                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="0.82157175159999996" green="0.32134046049999998" blue="0.28505345389999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rXp-Ib-zay" customClass="TransformView">
+                                        <rect key="frame" x="321" y="20" width="100" height="100"/>
+                                        <color key="backgroundColor" red="0.72779605260000002" green="0.1935135691" blue="0.064119037830000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="rg" destination="2qL-yr-Nwf" id="htj-iC-ifV"/>
+                        <outlet property="rg1" destination="Bt7-2W-T1Z" id="XYd-Pl-5oH"/>
+                        <outlet property="rg2" destination="4NE-zE-GnB" id="6z9-Rv-21Y"/>
+                        <outlet property="rg3" destination="Q9C-5F-drx" id="7rs-lt-UnP"/>
+                        <outlet property="rg4" destination="rXp-Ib-zay" id="s6c-NO-sWO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgu-4w-Lad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955" y="467"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="i3" width="275" height="183"/>
+    </resources>
 </document>

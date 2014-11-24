@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  check
+//  RGCoverFlow
 //
-//  Created by ROBERA GELETA on 11/3/14.
+//  Created by ROBERA GELETA on 11/23/14.
 //  Copyright (c) 2014 ROBERA GELETA. All rights reserved.
 //
 
@@ -17,8 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *a = @"AndrewGel®";
-    NSString *aCoded = @"";
     return YES;
 }
 
@@ -33,7 +31,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes madeÅÍΩQWqwS C XZAZXZZXCZZZzZZZ on entering the background.
+    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
